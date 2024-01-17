@@ -54,7 +54,7 @@ cd docker-examples/simple
 docker build -t my-computer-vision-app .
 ```
 After successful execution of the `docker build` you can check the docker builded a local `docker image` you can check the by `docker images`
-```bash
+```console
 (base) usman@saikhu:~/docker-tutorial/docker-examples/simple$ docker images
 REPOSITORY               TAG       IMAGE ID       CREATED         SIZE
 my-computer-vision-app   latest    0bab9d7512b1   3 minutes ago   344MB
@@ -121,7 +121,7 @@ The output should be like this.
 ![Alt text](/assets/output.gif)
 
 #### 2.5 File Structure
-```bash
+```console
 intermediate/
 ├── app.py # Flask application script with OpenCV for face detection.
 ├── Dockerfile # Docker configuration file.
