@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=assets/docker_reading.png />
+  <img src=https://github.com/saikhu/Docker-Guide-for-AI-Model-Development-and-Deployment/blob/main/assets/docker_reading.png />
 </p>
 
 # Docker Guide for AI Model Development and Deployment
@@ -20,7 +20,7 @@ Docker containers are lightweight, standalone, executable packages that include 
 
 Containers and virtual machines have similar resource isolation and allocation benefits, but function differently because containers virtualize the operating system instead of hardware. Containers are more portable and efficient.
 
-![alt text for screen readers](assets/container_vs_vm.png)
+![alt text for screen readers](https://github.com/saikhu/Docker-Guide-for-AI-Model-Development-and-Deployment/blob/main/assets/container_vs_vm.png)
 
 
 Containers are an abstraction at the app layer that packages code and dependencies together. Multiple containers can run on the same machine and share the OS kernel with other containers, each running as isolated processes in user space. Containers take up less space than VMs (container images are typically tens of MBs in size), can handle more applications and require fewer VMs and Operating systems.
