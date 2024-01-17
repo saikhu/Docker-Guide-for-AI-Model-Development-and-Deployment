@@ -118,7 +118,7 @@ Press CTRL+C to quit
 ```
 The output should be like this.
 
-![Alt text](/assets/output.gif)
+![Alt text](https://github.com/saikhu/Docker-Guide-for-AI-Model-Development-and-Deployment/blob/main/assets/output.gif)
 
 #### 2.5 File Structure
 ```console
